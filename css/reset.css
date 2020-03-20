@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html,body,h1,h2,h3,h4,h,h6,p,div,ul,ol,li,form,table,th,td,
+di,dt,dd,header,footer,nav,main{
+	margin : 0;
+	padding : 0;
+}
+
+header,footer,nav,main{
+	display : block;
+}
+
+nav a{
+	text-decoration : none;
+}
+
+nav li{
+	list-style-type : none;
+}
+
+table{
+	border-collapse: collapse;
+}

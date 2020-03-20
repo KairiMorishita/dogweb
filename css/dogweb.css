@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+/*ページ全体*/
+
+	body{
+	background-color : #fff;
+	background-image : url("../images/images.jpeg");
+　background-size: cover;
+	}
+
+
+	main{
+	width : 1000px;
+	background-color: #fff;
+	color: #000;
+	margin-left: auto;
+	margin-right : auto;
+	padding-bottom: 20px;
+	}
+
+/*トップ*/
+
+header{
+background-color : #ccc;
+background-image: url("../images/060731e5001dbe8540c80e93e5d5abc4_t.jpg");
+background-repeat: initial;
+}
+
+/* メニュー バー */
+
+nav{
+	width : 1000px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+ul{}
+
+li{
+	font-size: large;
+	font-weight: bold;
+	line-height : 3;
+	border-color: #ffcc00;
+	margin-right: 5px;
+	background-color: #ffcc00;
+	text-align: center;
+	width : 300px;
+	margin-bottom : 10px;
+	margin-top : 10px;
+	float : left;
+}
+
+
+nav a{
+	font-size: 1.3em;
+	text-decoration : none;
+	display : block;
+}
+
+
+nav a:hover{
+	color:#fff;
+	border-color: #66cc66;
+	background-color: #ffcc33;
+}
+
+main div a:hover{
+	background-color: #ffcc33;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+nav div li{
+	background-color: #fff;
+}
+
+/* タイトル */
+
+
+header p{
+	text-align: center;
+	font-size: 30px;
+	color: #660000;
+	background-color: #fff;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+	padding: 80px;
+  /*background-image: url("../images/sekai2.png");*/
+}
+
+h2{
+padding : 15px;
+margin-top: 20px;
+font-size : 2em;
+}
+
+h3{
+border-left : double 12px;
+border-bottom : solid 1px;
+border-color: #ff6600;
+padding : 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+
+
+/* 画像 */
+
+img{
+	width : 150px ;
+	height : 100px ;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float : left;
+
+}
+
+
+/* 説明文 */
+
+main p{
+	width : 700px;
+	padding : 10px;
+	float : left;
+}
+
+
+/* クリア */
+
+.clearfix::after{
+	content : "";
+	display : block;
+	clear : both;
+
+}
+
+/* wrapper */
+wrapper{
+	display : inline-block;
+}
+
+
+
+/* コピーライト */
+.copyright{
+	margin-top: 0px;
+	text-align : center;
+	background-color: #ccc;
+	color: #669999;
+	background-image: url("../images/sibafu.jpg");
+}
+
+
+/* クラス */
+
+.oogata01{
+	background-color: #339933;
+	color: #fff;
+}
+
+.chuugata01{
+	background-color: #33cc66;
+	color: #000;
+}
+
+.kogata01{
+	background-color: #ccff33;
+	color: #6699ff;
+}
+
+.t{
+	text-align: right;
+	line-height: 2px;
+}
